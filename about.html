@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>University Website Design</title>
+        <link rel="stylesheet" href="styles.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;400;600;700&display=swap" rel="stylesheet">
+        <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" /> -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
+        
+    </head>
+    <body>
+         <!------------------------ Sub Header : Home page ---------------------------->
+         <section class="sub-header">    <!-- Header : Home page -->
+            <nav>   <!-- The nav tag shows multipages links on the top right position -->
+                
+                <a href="./index.html"><img src="./images/logo.png" alt=""></a> <!-- Show logo of "Eduford on top 
+                    left corner "-->
+                
+                <div class="nav-links" id="navLinks"> <!-- div container with id "navLinks",
+                     to perform open and close menu in responsive window-->
+                    
+                     <i class="fa-solid fa-xmark" onclick="hideMenu()"></i> <!-- In responsive window  upon clicking
+                         this icon will used to close menu -->
+                    <ul>    <!-- List of horizontal (vertically right in responsive window) -->
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="about.html">ABOUT</a></li>
+                        <li><a href="course.html">COURSE</a></li>
+                        <li><a href="contact.html">CONTACT</a></li>
+                    </ul>
+                </div>
+                <i class="fa-solid fa-ellipsis-vertical" onclick="showMenu()"></i> <!-- In responsive window upon clicking
+                    this icon will used to show menu -->
+            </nav>
+            <h1>About Us</h1>   <!------------------------End of sub header------------------->
+
+            <!------------------------ About us ---------------------------->
+        <section class="about-us">  
+            <div class="row">
+                <div class="about-col">
+                    <h1>We are the world's largest teaching platform</h1>
+                        <p>Eduford University is one of the world’s leading academic and research institutions, 
+                            offering a unique educational experience that prepares the next generation of global
+                            citizens to lead and make a difference in the world. We are a vibrant community of exceptional students,
+                             faculty, alumni and professionals dedicated to real-world applications of our research, scholarship, 
+                             faith and service.
+                            Established in 1989, Eduford is the nation’s oldest Catholic and Jesuit university. 
+                            Drawing upon the 450-year-old legacy of Jesuit education, we provide students with a world-class 
+                            learning experience focused on educating the whole person through exposure to different faiths, 
+                            cultures and beliefs.</p>
+                            <a href="" class="hero-btn red-btn">EXPLORE NOW</a>
+                        </div>
+                        <div class="about-col">
+                            <img src="./images/about.jpg">
+                        </div>
+                </div>   
+        </section>     
+
+            <!------------------------ Footer ---------------------------->
+        <section class="footer">
+            <h4>About Us</h4>
+            <p>We’re a leading research university with a heart. Founded in the decade that the U.S. Constitution was signed, we’re the nation’s oldest Catholic and Jesuit university.
+            <br>    
+            We’re a community of people who bridge our disparate experiences and identities. Meet the people and places that make Eduford home.</p>
+            <div class="icons">
+                <i class="fa-brands fa-facebook-f"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-instagram"></i>
+            </div>
+            <p>Made with  <i class="fa-regular fa-heart"> by Sneha Deshpande</i></p>
+        </section>
+        
+        <!------------------------ Javascript for Toggle Menu in responsive window ------------------------->
+        <script src="./App.js"></script>
+    </body>
+</html>
