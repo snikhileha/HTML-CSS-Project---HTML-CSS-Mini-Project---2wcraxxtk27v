@@ -8,7 +8,7 @@ This project designed with HTML, CSS. This project has multiple html pages linke
 - Navigation menu to navigate over different pages.
 - Responsive website.
 - Javascript function to toggle menu in mobile view.
-- Bootstrap-CDN to use icons.
+- Bootstrap-CDN to use icons(menubar,close button for menu in mobile view, fecebook, twitter,instagram in footer).  
 - Beautiful hover on images, paragraphs and details etc.
 
 
